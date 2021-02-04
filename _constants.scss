@@ -1,0 +1,12 @@
+$background-primary: #ecffe9;
+$background-secundary: #97d279;
+$background-banner: #c0eea9;
+$background-line: #000;
+$shadow-color: rgba(0, 0, 0, 0.75);
+$padding-default: 20px;
+
+@mixin textelement {
+  max-width: 700px;
+  text-align: center;
+  padding: $padding-default;
+}
